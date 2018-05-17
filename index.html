@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="board">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exemplo responsivo</title>
+<link rel="stylesheet" href="responsive.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="table full">
+	<div class="row text-center" id="topo">
+		<h1>Site responsivo</h1>
+		<nav class="menu">
+			<a class="toggle">Menu</a>
+			<ul class="left drop-down">
+				<li>Link 1</li>
+				<li>
+					Link 2
+					<ul>
+						<li>
+							Sublink 2.1
+							<ul>
+								<li><a>Item 2.1.1</a></li>
+								<li><a>Item 2.1.2</a></li>
+							</ul>
+						</li>
+						<li>
+							Sublink 2.2
+							<ul>
+								<li><a>Item 2.2.1</a></li>
+								<li><a>Item 2.2.2</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>Link 3</li>
+			</ul>
+			<ul class="right">
+				<li>Sobre</li>
+				<li>Fazer login</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="row full">
+		<div class="table full">
+			<div class="col" id="sidebar">
+				<ul class="responsive">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+				</ul>
+			</div>
+			<div class="col full">
+				<div class="full">
+					<p class="desktop text-center">Versão para desktop.</p>
+					<p class="mobile text-center">Versão para mobile.</p>
+					<table class="responsive">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Nome</th>
+								<th>Telefone</th>
+								<th>Data cadastro</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<span class="label">ID:</span>
+									1
+								</td>
+								<td>
+									<span class="label">Nome:</span>
+									João
+								</td>
+								<td>
+									<span class="label">Telefone:</span>
+									(11) 1111-1111
+								</td>
+								<td>
+									<span class="label">Data cadastro:</span>
+									14/05/2018
+								</td>
+							</tr><tr>
+								<td>
+									<span class="label">ID:</span>
+									2
+								</td>
+								<td>
+									<span class="label">Nome:</span>
+									José
+								</td>
+								<td>
+									<span class="label">Telefone:</span>
+									(22) 2222-2222
+								</td>
+								<td>
+									<span class="label">Data cadastro:</span>
+									14/05/2018
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<form method="post">
+						<fieldset>
+							<legend>Cadastrar cliente</legend>
+							<div class="table">
+								<div class="col field">
+									<label>Nome:</label>
+									<input class="input" />
+								</div>
+								<div class="col field">
+									<label>Telefone:</label>
+									<input class="input" />
+								</div>
+								<div class="col field">
+									<button type="button" class="button">Botão</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+					<div class="embed-ratio r4x3">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0656932253637!2d-46.652983985499255!3d-23.566083984680553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1526368146844" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

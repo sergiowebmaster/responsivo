@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+	font-family:"Arial";
+	font-size:14px;
+}
+h1 {
+	color:#05A;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+
+#topo {
+	background-color:#CCC;
+}
+#sidebar {
+	min-width:200px;
+	background-color:#05A;
+	color:#FFF;
+}
+#sidebar a {
+	color:inherit;
+}
+
+.button {
+	background-color:#05A;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:6px;
+	padding:3px 10px 3px 10px;
+}
