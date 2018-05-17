@@ -139,14 +139,32 @@ a {
 .embed-ratio {
 	position:relative;
 	width:100%;
-	padding-bottom:100%;
+	padding-bottom:41.841%;
 	background-color:#DDD;
 }
-.embed-ratio.r4x3 {
+.embed-ratio.square {
+	padding-bottom:100%;
+}
+.embed-ratio.tv {
 	padding-bottom:75%;
 }
-.embed-ratio.r16x9 {
+.embed-ratio.hdtv {
 	padding-bottom:56.25%;
+}
+.embed-ratio.europe {
+	padding-bottom:60.24%;
+}
+.embed-ratio.cinema {
+	padding-bottom:42.8571%;
+}
+.embed-ratio.cinema-us {
+	padding-bottom:54.05%;
+}
+.embed-ratio.imax {
+	padding-bottom:27.77%;
+}
+.embed-ratio.univisium {
+	padding-bottom:50%;
 }
 .embed-ratio > * {
 	position:absolute;
